@@ -1,0 +1,14 @@
+AddToPlaylist O B-entity_name I-entity_name I-entity_name O O B-playlist I-playlist O
+AddToPlaylist O O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist
+PlayMusic O O B-artist O B-album O B-service I-service
+PlayMusic O O B-music_item B-track I-track I-track
+BookRestaurant O O O O B-party_size_number O B-state
+BookRestaurant O O B-restaurant_type O B-party_size_number O B-timeRange I-timeRange I-timeRange
+SearchCreativeWork O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name
+SearchCreativeWork O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name
+RateBook O O O B-object_select B-object_type O O O O B-rating_value O O O O O B-best_rating
+RateBook O B-object_select B-object_part_of_series_type O B-rating_value
+GetWeather O O O O O B-city B-state O B-timeRange I-timeRange I-timeRange I-timeRange I-timeRange I-timeRange I-timeRange
+GetWeather O O O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi B-spatial_relation B-timeRange I-timeRange I-timeRange
+SearchScreeningEvent O B-movie_name I-movie_name
+SearchScreeningEvent O O O O O B-object_type I-object_type O B-movie_type B-spatial_relation I-spatial_relation I-spatial_relation
